@@ -61,31 +61,15 @@ class GameDecisionTree:
                 continue            # starts loop over again if choice was incorrect
 
             if choice == 1:       # traversing left or right
-                if current.left_event == -1:
-                    print(" After a while you make it back home and forget about the whole ordeal.")
+                current = self.nodes[current.left_event]
+                if current.event_number < 0:
+                    print(f"{current.description}")
                     break
-                elif current.left_event == -2:
-                    print(" That was quite an enemy you defeated. Your crew put up a good fight."
-                          + " Your names will go down in history as fearsome fighters.")
-                    break
-                elif current.left_event == -3:
-                    print(" You can't believe your eyes: buried treasure! You sail home RICH!")
-                    break
-                else:
-                    current = self.nodes[current.left_event]
             if choice == 2:
-                if current.right_event == -1:
-                    print(" After a while you make it back home and forget about the whole ordeal.")
+                current = self.nodes[current.right_event]
+                if current.event_number < 0:
+                    print(f"{current.description}")
                     break
-                elif current.right_event == -2:
-                    print(" That was quite an enemy you defeated. Your crew put up a good fight."
-                          + " Your names will go down in history as fearsome fighters!")
-                    break
-                elif current.right_event == -3:
-                    print(" Your crew investigates around the rock and you can't believe what they find: buried treasure! You sail home RICH!")
-                    break
-                else:
-                    current = self.nodes[current.right_event]
 
         print(" Your story ends here. Thank you for playing.")
 

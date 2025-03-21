@@ -4,3 +4,6 @@
 4 | As we sail, we see another ship incoming, full of other pirates! Do you: 1) Order the ship to flee. 2) Get ready for a big fight. | 5 | -2
 5 | The ocean is mostly quiet... until you see the giant tentacles of a squid bigger than the ship! Do you: 1) Order the ship to flee. 2) Tell them to arm the cannons! | 6 | -2
 6 | You approach a nearby island. A giant rock in the shape of a skull is right in front. Do you: 1) Investigate the skull rock. 2) Leave it alone and keep sailing. | -3 | -1
+-1 |  After a while you make it back home and forget about the whole ordeal. Press either 1 or 2 to complete the game. | 0 | 0
+-2 | That was quite an enemy you defeated. Your crew put up a good fight. Your names will go down in history as fearsome fighters. | 0 | 0
+-3 | You can't believe your eyes: buried treasure! You sail home RICH! | 0 | 0
