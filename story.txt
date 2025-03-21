@@ -1,12 +1,9 @@
-1 | You awaken in a bizarre alien landscape. Do you: 1) Search for your crashed starship 2) Look for signs of intelligent life | 2 | 3
-2 | You find your starship crashed into a crystalline formation. Do you: 1) Check the ship for supplies 2) Try to repair the communications system | 4 | 5
-3 | You see structures in the distance suggestive of intelligent life. Do you: 1) Head towards the structures 2) Try to avoid potential danger by taking a different path | 7 | 8
-4 | Searching the ship, you find an emergency survival kit. Do you: 1) Take it with you 2) Store it for later | -1 | 6 
-5 | As you attempt to repair the communications system, a signal is picked up. Do you: 1) Try to decipher the signal 2) Broadcast a distress call | 6 | 9
-6 | You hear a strange noise outside the ship. Do you: 1) Investigate the noise with the survival kit in hand 2) Stay inside the ship and try to fortify the entrance | 10 | 2 
-7 | You find a bustling alien city and the inhabitants extend a warm greeting. Do you: 1) Accept their hospitality 2) Remain wary and keep your distance | 9 | 11
-8 | You encounter a dangerous looking alien creature. Do you: 1) Try to communicate with it 2) Run back to the ship | 3 | 2
-9 | The alien city offers help to repair your ship. Do you: 1) Accept their help 2) Decline and try to fix the ship yourself | 12 | 5
-10 | The noise is from a friendly looking creature. Do you: 1) Try to pet it 2) Reside back into the ship | -1 | 2
-11 | The inhabitants turn hostile. Do you: 1) Try to fight 2) Run away and look for a better place to hide | 10 | 7
-12 | The starship is repaired and the aliens bid you farewell. Do you: 1) Head back to home planet 2) Stay and explore more about the alien planet | -1 | 3
+1 | You walk down the street and see an ad to join a pirate crew. Do you: 1) Take up the offer. 2) Continue on home. | 2 | -1
+2 | Congrats on your new gig! Choose your position. Do you: 1) Become the head navigator. 2) Become the master gunner. | 3 | 4
+3 | Alright, you're in charge. Take this map. Where are we headed? 1) Out into the great blue. 2) Towards a nearby island. | 5 | 6
+4 | As we sail, we see another ship incoming, full of other pirates! Do you: 1) Order the ship to flee. 2) Get ready for a big fight. | 5 | -2
+5 | The ocean is mostly quiet... until you see the giant tentacles of a squid bigger than the ship! Do you: 1) Order the ship to flee. 2) Tell them to arm the cannons! | 6 | -2
+6 | You approach a nearby island. A giant rock in the shape of a skull is right in front. Do you: 1) Investigate the skull rock. 2) Leave it alone and keep sailing. | -3 | -1
+-1 |  After a while you make it back home and forget about the whole ordeal. Press either 1 or 2 to complete the game. | 0 | 0
+-2 | That was quite an enemy you defeated. Your crew put up a good fight. Your names will go down in history as fearsome fighters. | 0 | 0
+-3 | You can't believe your eyes: buried treasure! You sail home RICH! | 0 | 0
